@@ -8,8 +8,8 @@
     <meta name="robots" content="index, follow">
     <link rel="icon" href="favicon.ico">
     <title>Tela de login</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="Estilos/style.css" media="all" /> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/style.css"/> 
     <link rel="stylesheet" href="Estilos/media-queries.css" />
     
 </head>
@@ -21,24 +21,25 @@
       </div>
       <div id="formulario">
         <h1>Login</h1> 
-        <p>Seja bem-vindo(a) de volta ! <br />Entre na sua conta conta para configurar-lá </p>
-      </div> 
-      <form action="login.php" method="post" autocomplete="on"> 
+        <p>Seja bem-vindo(a) de volta ! <br />Entre na sua conta conta para configurar-lá </p> 
+        <form action="login.php" method="post" autocomplete="on"> 
         <div class="campo">
-          <span class="material-symbols">person</span> 
-          <input type="email" name="email" id="email" maxlength="30" required
-          autocomplete="email"/>
+          <i class="material-icons">person</i>
+          <input type="email" name="email" id="email" maxlength="30" required autocomplete="email" placeholder="digite seu email" />
           <label for="email">email</label>
         </div>
         <div class="campo">
-          <span class="material-symbols">vpn_key</span> 
-          <input type="password" name="pass" id="ipass" minlength="8"
-          maxlength="15" required autocomplete="curent_password"/>
+          <i class="material-icons">vpn_key</i>
+          <input type="password" name="pass" id="ipass" minlength="8" maxlength="15" required autocomplete="current_password" placeholder="digite sua senha" />
           <label for="ipass">password</label>
         </div>
         <input type="submit" value="Enviar" /> 
-        <a href="esqueci.html">Esqueci a senha <span class="material-symbols">mail</span> </a>
+        <a href="esqueci.html" class="botao">
+          Esqueci a senha
+          <i class="material-icons">mail</i>
+        </a>
       </form>
+      </div> 
     </section>
   </main>
 </body>
