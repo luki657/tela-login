@@ -39,6 +39,7 @@ section#login {
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 0 10px #00000078;
+  
   transition: width .3s, height .3s;
   transition-timing-function: ease;
 }
