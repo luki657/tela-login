@@ -45,7 +45,7 @@ section#login {
 
 section#login > div#imagem { 
   display: block;
-  background: #5f2c82 url('../Imagens/grid.jpg') no-repeat;
+  background: #5f2c82 url('https://www.pexels.com/pt-br/foto/arte-abstrata-cinza-e-preta-35543/') no-repeat;
   background-size: cover;
   background-position: left bottom;
   height: 250px;
